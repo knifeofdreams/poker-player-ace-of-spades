@@ -35,7 +35,7 @@ class Player
   end
 
   def random_fold?
-    rand() > 0.7
+    rand() > 0.65
   end
 
   def is_pair?(game_state)
