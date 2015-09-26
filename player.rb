@@ -1,27 +1,42 @@
 
 class Player
 
-  VERSION = "Refactor bot"
+  VERSION = "Wattafck bot"
 
   def bet_request(game_state)
+    @bet = 0
 
-    if if_two_pairs?(game_state)
-      bet = game_state['players'][game_state['in_action']]['stack']
-    elsif is_pair?(game_state)
-      bet = game_state['players'][game_state['in_action']]['stack']/4.floor
-    elsif face_card_in_hand?(game_state)
-      bet = game_state['players'][game_state['in_action']]['stack']/6.floor
+    if game_state['community_cards'].length == 0
+      if is_pair?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']/4.floor
+      elsif face_card_in_hand?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']/6.floor
+      else
+        if game_state['players'][game_state['in_action']]['stack'] < 1000
+          return 0
+        else
+          @bet = (80 * rand()).floor
+        end
+      end
     else
-      bet = (80 * rand()).floor
+      if if_two_pairs?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']
+      elsif is_pair?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']/4.floor
+      elsif face_card_in_hand?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']/6.floor
+      else
+        @bet = (80 * rand()).floor
+      end
+
+      if @bet < minimum_call_bet(game_state)
+        return minimum_call_bet(game_state)
+      end
+
+      @bet = 0 if random_fold?
     end
 
-    if bet < minimum_call_bet(game_state)
-      return minimum_call_bet(game_state)
-    end
-
-    bet = 0 if random_fold?
-
-    bet
+    @bet
   end
 
   def face_card_in_hand?(game_state)
