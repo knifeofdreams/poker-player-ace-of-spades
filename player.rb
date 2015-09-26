@@ -37,6 +37,7 @@ class Player
       # end
 
       @bet = 0 if random_fold?
+      end
     end
 
     @bet
