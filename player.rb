@@ -1,16 +1,17 @@
 
 class Player
 
-  VERSION = "refactobot"
+  VERSION = "less stupid bet"
 
   def bet_request(game_state)
     first_high_card = high_card(game_state, 0)
     second_high_card = high_card(game_state, 1)
 
     if first_high_card or second_high_card
-      return 200
+      game_state['players'][game_state['in_action']]['stack']/6
+    else
+      100
     end
-    100
   end
 
   def high_card(game_state, card)
