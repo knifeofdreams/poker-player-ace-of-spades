@@ -1,14 +1,14 @@
 
 class Player
 
-  VERSION = "check my stack"
+  VERSION = "be more passive"
 
   def bet_request(game_state)
     first_high_card = is_high_card?(game_state, 0)
     second_high_card = is_high_card?(game_state, 1)
 
     if first_high_card or second_high_card
-      game_state['players'][game_state['in_action']]['stack']/6.floor
+      game_state['players'][game_state['in_action']]['stack']/100.floor
     else
       100
     end

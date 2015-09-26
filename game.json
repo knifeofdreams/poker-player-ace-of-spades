@@ -1,1 +1,63 @@
-{"id":"56066bbefb4a15000300004b","tournament_id":"55b644769533c10003000003","started":"2015-09-26 09:56:14 UTC","status":"finished","teams":[{"name":"Goku","url":"http://mysterious-shore-1654.herokuapp.com/","instance_id":null,"commit_id":"d1a322f1a013caedbf4481f206ddccf96b4420f5","ranking":3,"version":"Default JavaScript folding player","gained":0,"points":12,"relative_points":-138.0,"deployed":false},{"name":"mmm kaffee","url":"http://aqueous-tor-5836.herokuapp.com/","instance_id":null,"commit_id":"a3eecca4bb7cc15f7d6053f0a09b80173822e93a","ranking":1,"version":"0.1.2","gained":5,"points":170,"relative_points":20.0,"deployed":false},{"name":"Ace of Spades","url":"http://intense-atoll-5536.herokuapp.com/","instance_id":null,"commit_id":"0a6be74dcde86b98260d6e89a4ab7d526c773d46","ranking":4,"version":"refactobot","gained":0,"points":177,"relative_points":27.0,"deployed":false},{"name":"Perl Jim","url":"http://arcane-tor-3080.herokuapp.com/","instance_id":null,"commit_id":"be4c32c2af588fc58552e476a250f1b38cf46730","ranking":2,"version":"0.0.2","gained":3,"points":241,"relative_points":91.0,"deployed":false}],"salted_response_token":"ddae201cf8f3b7f55efb399c61eb362217ea96414d997ba35957acaca488f7d8","finished":"2015-09-26 09:56:24 UTC"}
+{
+  "tournament_id":"550d1d68cd7bd10003000003",
+  "game_id":"550da1cb2d909006e90004b1",
+  "round":0,
+  "bet_index":0,
+  "small_blind": 10,
+  "current_buy_in": 320,
+  "pot": 400,
+  "minimum_raise": 240,
+  "dealer": 1,
+  "orbits": 7,
+  "in_action": 1,
+  "players": [
+    {
+      "id": 0,
+      "name": "Albert",
+      "status": "active",
+      "version": "Default random player",
+      "stack": 1010,
+      "bet": 320
+    },
+    {
+      "id": 1,
+      "name": "Bob",
+      "status": "active",
+      "version": "Default random player",
+      "stack": 1590,
+      "bet": 80,
+      "hole_cards": [
+        {
+          "rank": "6",
+          "suit": "hearts"
+        },
+        {
+          "rank": "K",
+          "suit": "spades"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chuck",
+      "status": "out",
+      "version": "Default random player",
+      "stack": 0,
+      "bet": 0
+    }
+  ],
+  "community_cards": [
+    {
+      "rank": "4",
+      "suit": "spades"
+    },
+    {
+      "rank": "A",
+      "suit": "hearts"
+    },
+    {
+      "rank": "6",
+      "suit": "clubs"
+    }
+  ]
+}
