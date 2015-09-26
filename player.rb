@@ -14,8 +14,8 @@ class Player
       else
         if game_state['players'][game_state['in_action']]['stack'] < 1000
           return 0
-        else
-          @bet = (80 * rand()).floor
+        # else
+        #   @bet = (50 * rand()).floor
         end
       end
     else
