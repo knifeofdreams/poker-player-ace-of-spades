@@ -94,7 +94,10 @@ class Player
   end
 
   def is_pair?(game_state)
-    game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
+    ranks = get_ranks(game_state)
+    occurrences = get_occurrences_of(ranks)
+
+    occurrences[game_state['players'][game_state['in_action']]['hole_cards'][0]['rank']] == 2 or occurrences[game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']] == 2
   end
 
   def is_face_card?(game_state, card)
