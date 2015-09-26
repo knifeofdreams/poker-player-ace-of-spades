@@ -10,7 +10,7 @@ class Player
       if is_pair?(game_state)
         @bet = game_state['players'][game_state['in_action']]['stack']/4.floor
       elsif face_card_in_hand?(game_state)
-        @bet = game_state['players'][game_state['in_action']]['stack']/6.floor
+        @bet = game_state['players'][game_state['in_action']]['stack']/8.floor
       else
         if game_state['players'][game_state['in_action']]['stack'] < 1000
           return 0
