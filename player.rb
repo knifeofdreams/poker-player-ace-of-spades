@@ -1,20 +1,20 @@
 
 class Player
 
-  VERSION = "High card for real"
+  VERSION = "refactobot"
 
   def bet_request(game_state)
-    if game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == 'A' or game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == 'Q' or game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == 'K' or game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == 'J'
-      @one_high_card = game_state['players'][game_state['in_action']]['hole_cards'][0]['rank']
-    end
+    first_high_card = high_card(game_state, 0)
+    second_high_card = high_card(game_state, 1)
 
-    if game_state['players'][game_state['in_action']]['hole_cards'][1]['rank'] == 'A' or game_state['players'][game_state['in_action']]['hole_cards'][1]['rank'] == 'Q' or game_state['players'][game_state['in_action']]['hole_cards'][1]['rank'] == 'K' or game_state['players'][game_state['in_action']]['hole_cards'][1]['rank'] == 'J'
-      @other_high_card = game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
-    end
-    if @one_high_card or @other_high_card
+    if first_high_card or second_high_card
       return 200
     end
     100
+  end
+
+  def high_card(game_state, card)
+    game_state['players'][game_state['in_action']]['hole_cards'][card]['rank'] if game_state['players'][game_state['in_action']]['hole_cards'][card]['rank'] == 'A' or game_state['players'][game_state['in_action']]['hole_cards'][card]['rank'] == 'Q' or game_state['players'][game_state['in_action']]['hole_cards'][card]['rank'] == 'K' or game_state['players'][game_state['in_action']]['hole_cards'][card]['rank'] == 'J'
   end
 
   def showdown(game_state)
