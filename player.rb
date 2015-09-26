@@ -4,6 +4,12 @@ class Player
   VERSION = "revertobot2000"
 
   def bet_request(game_state)
+
+    p '#############'
+    p 'JuciLogs'
+    p '#############'
+    p game_state['players'][game_state['in_action']]['stack']
+
     if is_pair?(game_state)
       bet = game_state['players'][game_state['in_action']]['stack']/4.floor
     elsif face_card_in_hand?(game_state)
@@ -29,7 +35,7 @@ class Player
   end
 
   def random_fold?
-    rand() > 0.8
+    rand() > 0.7
   end
 
   def is_pair?(game_state)
