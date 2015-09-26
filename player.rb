@@ -1,11 +1,13 @@
 
 class Player
 
-  VERSION = "BRAVEBOT"
+  VERSION = "ALL IN"
 
   def bet_request(game_state)
 
-    if is_pair?(game_state)
+    if if_two_pairs?(game_state)
+      bet = game_state['players'][game_state['in_action']]['stack']
+    elsif is_pair?(game_state)
       bet = game_state['players'][game_state['in_action']]['stack']/4.floor
     elsif face_card_in_hand?(game_state)
       bet = game_state['players'][game_state['in_action']]['stack']/6.floor
@@ -43,7 +45,26 @@ class Player
       ranks << community_card['rank']
     }
 
-    false
+    occurrences = {}
+    ranks.each { |rank|
+      if occurrences.has_key?(rank)
+        occurrences[rank] += 1
+      else
+        occurrences[rank] = 1
+      end
+
+    }
+
+    no_of_pairs = 0
+
+    occurrences.each do |key, value |
+      if value == 2
+        no_of_pairs += 1
+      end
+    end
+
+    no_of_pairs == 2
+
   end
 
   def is_pair?(game_state)
