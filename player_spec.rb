@@ -7,15 +7,14 @@ describe 'Player' do
   before(:all) do
     json = File.read('game.json')
     @game = JSON.parse(json)
+    @player = Player.new
   end
 
   describe 'bet_request' do
 
     it 'should return integer' do
-      p @game
-      expect(true).to be true
-      # player = Player.new
-      # expect(player.bet_request(game.json)).to be(true)
+      p @player.bet_request(@game)
+      # expect(@player.bet_request(@game).is_a? Integer).to be true
     end
 
   end
