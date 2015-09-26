@@ -32,9 +32,9 @@ class Player
           @bet = (80 * rand()).floor
       end
 
-      if @bet < minimum_call_bet(game_state)
-        return minimum_call_bet(game_state)
-      end
+      # if @bet < minimum_call_bet(game_state)
+      #   return minimum_call_bet(game_state)
+      # end
 
       @bet = 0 if random_fold?
     end
