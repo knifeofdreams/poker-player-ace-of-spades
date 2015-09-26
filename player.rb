@@ -1,16 +1,16 @@
 
 class Player
 
-  VERSION = "revertobot"
+  VERSION = "revertobot2000"
 
   def bet_request(game_state)
-    if face_card_in_hand?(game_state)
+    if is_pair?(game_state)
+      bet = game_state['players'][game_state['in_action']]['stack']/4.floor
+    elsif face_card_in_hand?(game_state)
       bet = game_state['players'][game_state['in_action']]['stack']/6.floor
     else
       bet = (100 * rand()).floor
     end
-
-    game_state['players'][game_state['in_action']]['stack']/6.floor
 
     if bet < minimum_call_bet(game_state)
       return minimum_call_bet(game_state)
@@ -30,6 +30,10 @@ class Player
 
   def random_fold?
     rand() > 0.8
+  end
+
+  def is_pair?(game_state)
+    game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
   end
 
   def is_face_card?(game_state, card)
