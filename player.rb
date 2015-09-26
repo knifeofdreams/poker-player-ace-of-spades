@@ -22,11 +22,14 @@ class Player
       if if_two_pairs?(game_state)
         @bet = game_state['players'][game_state['in_action']]['stack']
       elsif is_pair?(game_state)
-        @bet = game_state['players'][game_state['in_action']]['stack']/4.floor
-      elsif face_card_in_hand?(game_state)
         @bet = game_state['players'][game_state['in_action']]['stack']/6.floor
+      elsif face_card_in_hand?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']/8.floor
       else
-        @bet = (80 * rand()).floor
+        if game_state['players'][game_state['in_action']]['stack'] < 1000
+          return 0
+        else
+          @bet = (80 * rand()).floor
       end
 
       if @bet < minimum_call_bet(game_state)
