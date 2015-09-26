@@ -19,7 +19,9 @@ class Player
         @bet = game_state['players'][game_state['in_action']]['stack']/5.floor
       else
         if game_state['players'][game_state['in_action']]['stack'] < 1000
-          return 0
+          if game_state['players'][game_state['in_action']]['bet'] > 80 and @bet < minimum_call_bet(game_state)
+            return minimum_call_bet(game_state)
+          end
         end
       end
     else
