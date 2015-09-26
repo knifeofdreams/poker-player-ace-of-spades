@@ -1,16 +1,18 @@
 
 class Player
 
-  VERSION = "SOOOOrandombot"
+  VERSION = "my chance to shine"
 
   def bet_request(game_state)
     if face_card_in_hand?(game_state)
-      bet = game_state['players'][game_state['in_action']]['stack']/6.floor
+      if minimum_call_bet(game_state) > my_stack(game_state) / 6
+        bet = minimum_call_bet(game_state) + (100 * rand()).floor
+      elsif minimum_call_bet(game_state) > my_stack(game_state) / 2
+        bet = minimum_call_bet(game_state)
+      end
     else
       bet = (100 * rand()).floor
     end
-
-    game_state['players'][game_state['in_action']]['stack']/6.floor
 
     if bet < minimum_call_bet(game_state)
       return minimum_call_bet(game_state)
@@ -30,6 +32,10 @@ class Player
 
   def random_fold?
     rand() > 0.8
+  end
+
+  def my_stack(game_state)
+    game_state['players'][2]['stack']
   end
 
   def is_face_card?(game_state, card)
