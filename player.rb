@@ -1,21 +1,23 @@
 
 class Player
 
-  VERSION = "Please win bot"
+  VERSION = "Poor but proud"
 
   def bet_request(game_state)
     @bet = 0
 
     if game_state['community_cards'].length == 0
       if is_pair?(game_state)
-        @bet = game_state['players'][game_state['in_action']]['stack']/4.floor
+        @bet = game_state['players'][game_state['in_action']]['stack']/6.floor
       elsif face_card_in_hand?(game_state)
-        @bet = game_state['players'][game_state['in_action']]['stack']/8.floor
+        if game_state['players'][game_state['in_action']]['stack']/8.floor > 100
+          @bet = 100
+        else
+          @bet = game_state['players'][game_state['in_action']]['stack']/8.floor
+        end
       else
         if game_state['players'][game_state['in_action']]['stack'] < 1000
           return 0
-        # else
-        #   @bet = (50 * rand()).floor
         end
       end
     else
