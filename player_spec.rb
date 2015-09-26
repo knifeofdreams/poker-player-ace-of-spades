@@ -1,15 +1,25 @@
 require 'rspec'
 require 'json'
-require_relative 'player_spec'
-# require_relative 'game.json'
+require_relative 'player'
 
-game = JSON.parse(IO.read(game.json))
+describe 'Player' do
 
-describe 'Test bet' do
-
-  it 'should return integer' do
-    player = Player.new
-    p game
-    # expect(player.bet_request(game.json)).to be(true)
+  before(:all) do
+    json = File.read('game.json')
+    @game = JSON.parse(json)
   end
+
+  describe 'bet_request' do
+
+    it 'should return integer' do
+      p @game
+      expect(true).to be true
+      # player = Player.new
+      # expect(player.bet_request(game.json)).to be(true)
+    end
+
+  end
+
+
+
 end
