@@ -8,7 +8,6 @@ class Player
 
     if game_state['community_cards'].length == 0
       if game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
-        # @bet = game_state['players'][game_state['in_action']]['stack']/5.floor
         @bet = game_state['players'][game_state['in_action']]['stack']/3.floor
       elsif face_card_in_hand?(game_state)
         if game_state['players'][game_state['in_action']]['stack']/8.floor > 80
@@ -16,6 +15,8 @@ class Player
         else
           @bet = game_state['players'][game_state['in_action']]['stack']/8.floor
         end
+      elsif game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == 'A' or game_state['players'][game_state['in_action']]['hole_cards'][1]['rank'] == 'A'
+        @bet = game_state['players'][game_state['in_action']]['stack']/5.floor
       else
         if game_state['players'][game_state['in_action']]['stack'] < 1000
           return 0
