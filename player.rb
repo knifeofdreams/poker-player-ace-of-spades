@@ -30,13 +30,13 @@ class Player
           return 0
         else
           @bet = (80 * rand()).floor
-      end
+        end
 
-      # if @bet < minimum_call_bet(game_state)
-      #   return minimum_call_bet(game_state)
-      # end
+        if game_state['players'][game_state['in_action']]['bet'] / game_state['pot'] > 0.6 and @bet < minimum_call_bet(game_state)
+          return minimum_call_bet(game_state)
+        end
 
-      @bet = 0 if random_fold?
+        @bet = 0 if random_fold?
       end
     end
 
