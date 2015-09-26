@@ -1,7 +1,7 @@
 
 class Player
 
-  VERSION = "ALL IN"
+  VERSION = "Refactor bot"
 
   def bet_request(game_state)
 
@@ -36,25 +36,8 @@ class Player
   end
 
   def if_two_pairs?(game_state)
-    ranks = []
-
-    ranks << game_state['players'][game_state['in_action']]['hole_cards'][0]['rank']
-    ranks << game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
-
-    game_state['community_cards'].each { |community_card|
-      ranks << community_card['rank']
-    }
-
-    occurrences = {}
-    ranks.each { |rank|
-      if occurrences.has_key?(rank)
-        occurrences[rank] += 1
-      else
-        occurrences[rank] = 1
-      end
-
-    }
-
+    ranks = get_ranks(game_state)
+    occurrences = get_occurrences_of(ranks)
     no_of_pairs = 0
 
     occurrences.each do |key, value |
@@ -65,6 +48,30 @@ class Player
 
     no_of_pairs == 2
 
+  end
+
+  def get_occurrences_of(ranks)
+    occurrences = {}
+    ranks.each { |rank|
+      if occurrences.has_key?(rank)
+        occurrences[rank] += 1
+      else
+        occurrences[rank] = 1
+      end
+    }
+    occurrences
+  end
+
+  def get_ranks(game_state)
+    ranks = []
+
+    ranks << game_state['players'][game_state['in_action']]['hole_cards'][0]['rank']
+    ranks << game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
+
+    game_state['community_cards'].each { |community_card|
+      ranks << community_card['rank']
+    }
+    ranks
   end
 
   def is_pair?(game_state)
