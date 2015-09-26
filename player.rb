@@ -9,6 +9,8 @@ class Player
     if game_state['community_cards'].length == 0
       if game_state['players'][game_state['in_action']]['hole_cards'][0]['rank'] == game_state['players'][game_state['in_action']]['hole_cards'][1]['rank']
         @bet = game_state['players'][game_state['in_action']]['stack']/3.floor
+      elsif is_face_card_both_hands?(game_state)
+        @bet = game_state['players'][game_state['in_action']]['stack']/5.floor
       elsif face_card_in_hand?(game_state)
         if game_state['players'][game_state['in_action']]['stack']/8.floor > 80
           @bet = 80
@@ -54,6 +56,13 @@ class Player
     second_high_card = is_face_card?(game_state, 1)
 
      return (first_high_card or second_high_card)
+  end
+
+  def is_face_card_both_hands?(game_state)
+    first_high_card = is_face_card?(game_state, 0)
+    second_high_card = is_face_card?(game_state, 1)
+
+    return (first_high_card and second_high_card)
   end
 
   def random_fold?
