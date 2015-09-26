@@ -8,6 +8,7 @@ describe 'Player' do
     json = File.read('game.json')
     @game_state = JSON.parse(json)
     @player = Player.new
+
   end
 
   describe 'bet_request' do
