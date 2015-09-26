@@ -1,0 +1,814 @@
+[
+  {
+    id: "560660d7fb4a150003000001",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:09:43 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -2,
+        deployed: true
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 5,
+        relative_points: 3,
+        deployed: true
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "7989adcc6b141399db06253e9a031e9528e9c3ce",
+        ranking: 3,
+        version: "Default Ruby folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -2,
+        deployed: true
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "6137a32e153b8a8ec014ac5e3251a71deda38559",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 3,
+        relative_points: 1,
+        deployed: true
+      }
+    ],
+    salted_response_token: "cc18b684eba5b7acc99c266d7c795de12ea7afe13829d11edc28453bb3b0280e",
+    finished: "2015-09-26 09:10:11 UTC"
+  },
+  {
+    id: "560660fbfb4a150003000002",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:10:19 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -4,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 10,
+        relative_points: 6,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "7989adcc6b141399db06253e9a031e9528e9c3ce",
+        ranking: 3,
+        version: "Default Ruby folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -4,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "6137a32e153b8a8ec014ac5e3251a71deda38559",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 6,
+        relative_points: 2,
+        deployed: false
+      }
+    ],
+    salted_response_token: "869370a00d4f9754f0eb345b0e37ae3c3fcfb1568b35e5bf91ca3cb9a8251137",
+    finished: "2015-09-26 09:10:24 UTC"
+  },
+  {
+    id: "56066123fb4a150003000003",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:10:59 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -6,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 15,
+        relative_points: 9,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "7989adcc6b141399db06253e9a031e9528e9c3ce",
+        ranking: 3,
+        version: "Default Ruby folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -6,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "6137a32e153b8a8ec014ac5e3251a71deda38559",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 9,
+        relative_points: 3,
+        deployed: false
+      }
+    ],
+    salted_response_token: "b2701e95a72409631cc7b62184a4eaa4726aa14eca1a8e9257ad99069d3b9a53",
+    finished: "2015-09-26 09:11:04 UTC"
+  },
+  {
+    id: "56066146fb4a150003000004",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:11:34 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -8,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 20,
+        relative_points: 12,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "7989adcc6b141399db06253e9a031e9528e9c3ce",
+        ranking: 3,
+        version: "Default Ruby folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -8,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "6137a32e153b8a8ec014ac5e3251a71deda38559",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 12,
+        relative_points: 4,
+        deployed: false
+      }
+    ],
+    salted_response_token: "432eb4dbe7fdd5bf93657cb9706503b4c1fd2504817bb0d6fa8af3fcbfbfe616",
+    finished: "2015-09-26 09:11:38 UTC"
+  },
+  {
+    id: "56066169fb4a150003000005",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:12:09 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -10,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 25,
+        relative_points: 15,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "7989adcc6b141399db06253e9a031e9528e9c3ce",
+        ranking: 3,
+        version: "Default Ruby folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -10,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 15,
+        relative_points: 5,
+        deployed: true
+      }
+    ],
+    salted_response_token: "45d08940cbc7ac9fc544887316bcdec5341a60a81194057568ba01afd6bcb1e0",
+    finished: "2015-09-26 09:12:13 UTC"
+  },
+  {
+    id: "56066191fb4a150003000006",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:12:49 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -12,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 30,
+        relative_points: 18,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "db04fa0971d3dcb77df8b806daa17fe3ded42c99",
+        ranking: 3,
+        version: "Default Ruby folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -12,
+        deployed: true
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 18,
+        relative_points: 6,
+        deployed: false
+      }
+    ],
+    salted_response_token: "d30de6e0c136558b6a503ea6afd3a99e57fe9ba5054df2c5eaa4bc553e12545a",
+    finished: "2015-09-26 09:12:52 UTC"
+  },
+  {
+    id: "560661b4fb4a150003000007",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:13:24 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -14,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 3,
+        version: "0.0.3",
+        gained: 0,
+        points: 30,
+        relative_points: 16,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "db04fa0971d3dcb77df8b806daa17fe3ded42c99",
+        ranking: 1,
+        version: "Default Ruby folding player",
+        gained: 5,
+        points: 5,
+        relative_points: -9,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 21,
+        relative_points: 7,
+        deployed: false
+      }
+    ],
+    salted_response_token: "1e652478853877c56917354c3f2fc893953f6f248475ab961e551ec771328d2a",
+    finished: "2015-09-26 09:13:31 UTC"
+  },
+  {
+    id: "560661d7fb4a150003000008",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:13:59 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -16,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 3,
+        version: "0.0.3",
+        gained: 0,
+        points: 30,
+        relative_points: 14,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "db04fa0971d3dcb77df8b806daa17fe3ded42c99",
+        ranking: 1,
+        version: "Play!!!",
+        gained: 5,
+        points: 10,
+        relative_points: -6,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 24,
+        relative_points: 8,
+        deployed: false
+      }
+    ],
+    salted_response_token: "fb61db5d9bebd691a050191171f139ee53cb911f555a7feb95c512d300b97b47",
+    finished: "2015-09-26 09:14:07 UTC"
+  },
+  {
+    id: "560661fffb4a150003000009",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:14:39 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -18,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 35,
+        relative_points: 17,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "db04fa0971d3dcb77df8b806daa17fe3ded42c99",
+        ranking: 3,
+        version: "Play!!!",
+        gained: 0,
+        points: 10,
+        relative_points: -8,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 27,
+        relative_points: 9,
+        deployed: false
+      }
+    ],
+    salted_response_token: "b43324892107f91f06e1bdb99a1f6eb3922089860ece155f08b02f218002b453",
+    finished: "2015-09-26 09:14:43 UTC"
+  },
+  {
+    id: "56066222fb4a15000300000a",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:15:14 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -20,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 3,
+        version: "0.0.3",
+        gained: 0,
+        points: 35,
+        relative_points: 15,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "db04fa0971d3dcb77df8b806daa17fe3ded42c99",
+        ranking: 1,
+        version: "Play!!!",
+        gained: 5,
+        points: 15,
+        relative_points: -5,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 30,
+        relative_points: 10,
+        deployed: false
+      }
+    ],
+    salted_response_token: "042e0ebeb50cd0e0cbaf14ac3fae99b3c99812f385250ad9f3bcb0556d4595d3",
+    finished: "2015-09-26 09:15:19 UTC"
+  },
+  {
+    id: "5606624afb4a15000300000b",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:15:54 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -22,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 40,
+        relative_points: 18,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "e2a6c6e609f75a227b87d975b8cd81bc8de6f6c8",
+        ranking: 3,
+        version: "Play!!!",
+        gained: 0,
+        points: 15,
+        relative_points: -7,
+        deployed: true
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 33,
+        relative_points: 11,
+        deployed: false
+      }
+    ],
+    salted_response_token: "ebc0417dec1738f5dd24f2c70628fcd81c5ad14ee610c077e9c13eba6dd7aa63",
+    finished: "2015-09-26 09:15:58 UTC"
+  },
+  {
+    id: "56066272fb4a15000300000c",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:16:34 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -24,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 45,
+        relative_points: 21,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "e2a6c6e609f75a227b87d975b8cd81bc8de6f6c8",
+        ranking: 3,
+        version: "Play!!!",
+        gained: 0,
+        points: 15,
+        relative_points: -9,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 36,
+        relative_points: 12,
+        deployed: false
+      }
+    ],
+    salted_response_token: "0c8f9f164da0d27e8c4919cfde321c8bf6d8b66a1c4b2396e1d710980517ad4a",
+    finished: "2015-09-26 09:16:37 UTC"
+  },
+  {
+    id: "56066295fb4a15000300000d",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:17:09 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -26,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 1,
+        version: "0.0.3",
+        gained: 5,
+        points: 50,
+        relative_points: 24,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "e2a6c6e609f75a227b87d975b8cd81bc8de6f6c8",
+        ranking: 3,
+        version: "Play!!!",
+        gained: 0,
+        points: 15,
+        relative_points: -11,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 39,
+        relative_points: 13,
+        deployed: false
+      }
+    ],
+    salted_response_token: "34185d1b37a46713bfad808e963025001834b087a88d82bede8e2cb7e55e37eb",
+    finished: "2015-09-26 09:17:13 UTC"
+  },
+  {
+    id: "560662b8fb4a15000300000e",
+    tournament_id: "55b644769533c10003000003",
+    started: "2015-09-26 09:17:44 UTC",
+    status: "finished",
+    teams: [
+      {
+        name: "Goku",
+        url: "http://mysterious-shore-1654.herokuapp.com/",
+        instance_id: null,
+        commit_id: "ec0061303599e19577f18f5ba8f367004e04db3d",
+        ranking: 4,
+        version: "Default Go folding player",
+        gained: 0,
+        points: 0,
+        relative_points: -28,
+        deployed: false
+      },
+      {
+        name: "mmm kaffee",
+        url: "http://aqueous-tor-5836.herokuapp.com/",
+        instance_id: null,
+        commit_id: "b16045dfffdbf5da20953ca46e9825f12b1e3772",
+        ranking: 3,
+        version: "0.0.3",
+        gained: 0,
+        points: 50,
+        relative_points: 22,
+        deployed: false
+      },
+      {
+        name: "Ace of Spades",
+        url: "http://intense-atoll-5536.herokuapp.com/",
+        instance_id: null,
+        commit_id: "e2a6c6e609f75a227b87d975b8cd81bc8de6f6c8",
+        ranking: 1,
+        version: "Play!!!",
+        gained: 5,
+        points: 20,
+        relative_points: -8,
+        deployed: false
+      },
+      {
+        name: "Perl Jim",
+        url: "http://arcane-tor-3080.herokuapp.com/",
+        instance_id: null,
+        commit_id: "506473122690307cdd85f7b4b2b1fd0d6289cddf",
+        ranking: 2,
+        version: "0.0.0",
+        gained: 3,
+        points: 42,
+        relative_points: 14,
+        deployed: false
+      }
+    ],
+    salted_response_token: "1f58581a413124e0d04a9c64d13cbaa3b522d8345db607f98842102e4b0c68cb",
+    finished: "2015-09-26 09:17:50 UTC"
+  }
+]
